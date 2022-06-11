@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <a href="gsb/"> go to gbm page</a>
-        <a href="jjj/"> go to jjj page</a>
+        <a className="goToPage" href="gsb/"> go to gbm page</a>
+        <a className="goToPage" href="jjj/"> go to jjj page</a>
       </header>
     </div>
   );
